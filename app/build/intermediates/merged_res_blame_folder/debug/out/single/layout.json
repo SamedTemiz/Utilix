@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-mergeDebugResources-35:\\layout\\activity_mirror.xml",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_mirror.xml"
+    },
+    {
+        "merged": "com.samed.utilitybelt.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.samed.utilitybelt.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.samed.utilitybelt.app-mergeDebugResources-35:/layout/activity_magnifier.xml",
+        "source": "com.samed.utilitybelt.app-main-38:/layout/activity_magnifier.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-mergeDebugResources-35:\\layout\\activity_qr_result.xml",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_qr_result.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-mergeDebugResources-35:\\layout\\activity_qr_scanner.xml",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_qr_scanner.xml"
+    }
+]

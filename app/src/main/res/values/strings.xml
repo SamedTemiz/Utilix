@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Utility Belt</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_vibrate">Vibrate</string>
+    <string name="action_screen_light">Screen Light</string>
+    <string name="action_screen_on">Keep Awake</string>
+    <string name="action_water_eject">Water Eject</string>
+    <string name="action_qr">QR Scan</string>
+    <string name="action_mirror">Mirror</string>
+    <string name="action_magnifier">Magnifier</string>
+    <string name="action_ruler">Ruler</string>
+    <string name="action_decision">Decision</string>
+    <string name="action_system">System</string>
+</resources>

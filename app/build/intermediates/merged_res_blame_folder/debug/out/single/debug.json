@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\layout_activity_mirror.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_mirror.xml"
+    },
+    {
+        "merged": "com.samed.utilitybelt.app-merged_res-36:/layout_activity_magnifier.xml.flat",
+        "source": "com.samed.utilitybelt.app-main-38:/layout/activity_magnifier.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\layout_activity_main.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.samed.utilitybelt.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.samed.utilitybelt.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\layout_activity_qr_result.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_qr_result.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\drawable_qr_border.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\drawable\\qr_border.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\drawable_ic_launcher.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\layout_activity_qr_scanner.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\layout\\activity_qr_scanner.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-merged_res-36:\\drawable_mirror_frame.xml.flat",
+        "source": "D:\\Programs\\Android\\.gradle\\daemon\\8.2\\com.samed.utilitybelt.app-main-38:\\drawable\\mirror_frame.xml"
+    }
+]
