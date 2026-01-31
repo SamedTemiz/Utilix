@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.samed.utilitybelt'
+    namespace 'com.dev.utilix'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.samed.utilitybelt"
+        applicationId "com.dev.utilix"
         minSdk 24
         targetSdk 34
         versionCode 1

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] D:\Programs\Android\.gradle\caches\transforms-3\59ecafa8aae746a48254b9e606704ccb\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] D:\Programs\Android\.gradle\caches\transforms-3\6bf27c0a08c7a51da7bc9eb8b01ba35e\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\Programs\Android\.gradle\caches\transforms-3\3eeddbcd45be047ed2d7b1d8d4679b39\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -83,8 +83,8 @@ ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:11:5-33:19
-INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:11:5-33:19
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:11:5-41:19
+INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:11:5-41:19
 MERGED from [com.google.android.material:material:1.11.0] D:\Programs\Android\.gradle\caches\transforms-3\6bf27c0a08c7a51da7bc9eb8b01ba35e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] D:\Programs\Android\.gradle\caches\transforms-3\6bf27c0a08c7a51da7bc9eb8b01ba35e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] D:\Programs\Android\.gradle\caches\transforms-3\3eeddbcd45be047ed2d7b1d8d4679b39\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -127,7 +127,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] D:\Programs\Android\.gradle
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:19:9-49
 	android:dataExtractionRules
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:13:9-65
-activity#com.samed.utilitybelt.MainActivity
+activity#com.dev.utilix.MainActivity
 ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:21:9-28:20
 	android:exported
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:23:13-36
@@ -143,22 +143,40 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:26:27-74
-activity#com.samed.utilitybelt.QrScannerActivity
+activity#com.dev.utilix.QrScannerActivity
 ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:29:9-55
 	android:name
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:29:19-52
-activity#com.samed.utilitybelt.MirrorActivity
+activity#com.dev.utilix.MirrorActivity
 ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:30:9-52
 	android:name
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:30:19-49
-activity#com.samed.utilitybelt.QrResultActivity
+activity#com.dev.utilix.QrResultActivity
 ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:31:9-54
 	android:name
 		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:31:19-51
-activity#com.samed.utilitybelt.MagnifierActivity
-ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:32:9-55
+activity#com.dev.utilix.MagnifierActivity
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:33:9-55
 	android:name
-		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:32:19-52
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:33:19-52
+activity#com.dev.utilix.RulerLevelActivity
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:34:9-56
+	android:name
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:34:19-53
+activity#com.dev.utilix.DeadPixelActivity
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:35:9-55
+	android:name
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:35:19-52
+activity#com.dev.utilix.SettingsActivity
+ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:36:9-40:52
+	android:screenOrientation
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:40:13-49
+	android:label
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:38:13-51
+	android:exported
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml:37:13-45
 uses-sdk
 INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Samed\MyProjects\new-app\app\src\main\AndroidManifest.xml
@@ -311,7 +329,7 @@ ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transf
 		ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-permission#com.samed.utilitybelt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.dev.utilix.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
@@ -321,7 +339,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-uses-permission#com.samed.utilitybelt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.dev.utilix.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] D:\Programs\Android\.gradle\caches\transforms-3\9643920afc401bf92410edb017e2095b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94

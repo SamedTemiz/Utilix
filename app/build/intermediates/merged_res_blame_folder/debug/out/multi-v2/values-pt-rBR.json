@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.samed.utilitybelt.app-mergeDebugResources-34:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.dev.utilix.app-mergeDebugResources-34:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "D:\\Programs\\Android\\.gradle\\caches\\transforms-3\\3fdcd8fc8fdde99adb1eb4c1f0cd10bd\\transformed\\appcompat-1.6.1\\res\\values-pt-rBR\\values-pt-rBR.xml",

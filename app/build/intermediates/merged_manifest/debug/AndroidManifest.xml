@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.samed.utilitybelt"
+    package="com.dev.utilix"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,10 +15,10 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
-        android:name="com.samed.utilitybelt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.dev.utilix.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.samed.utilitybelt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.dev.utilix.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -34,7 +34,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.UtilityBelt" >
         <activity
-            android:name="com.samed.utilitybelt.MainActivity"
+            android:name="com.dev.utilix.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,10 +42,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.samed.utilitybelt.QrScannerActivity" />
-        <activity android:name="com.samed.utilitybelt.MirrorActivity" />
-        <activity android:name="com.samed.utilitybelt.QrResultActivity" />
-        <activity android:name="com.samed.utilitybelt.MagnifierActivity" />
+        <activity android:name="com.dev.utilix.QrScannerActivity" />
+        <activity android:name="com.dev.utilix.MirrorActivity" />
+        <activity android:name="com.dev.utilix.QrResultActivity" />
+        <activity android:name="com.dev.utilix.QrResultActivity" />
+        <activity android:name="com.dev.utilix.MagnifierActivity" />
+        <activity android:name="com.dev.utilix.RulerLevelActivity" />
+        <activity android:name="com.dev.utilix.DeadPixelActivity" />
+        <activity
+            android:name="com.dev.utilix.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_settings"
+            android:screenOrientation="portrait" />
 
         <service
             android:name="androidx.camera.core.impl.MetadataHolderService"
@@ -58,7 +66,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.samed.utilitybelt.androidx-startup"
+            android:authorities="com.dev.utilix.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

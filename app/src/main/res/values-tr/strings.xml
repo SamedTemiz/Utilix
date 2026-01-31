@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Utilix</string>
+    <string name="action_flashlight">El Feneri</string>
+    <string name="action_vibrate">Titreşim</string>
+    <string name="action_screen_light">Ekran Işığı</string>
+    <string name="action_screen_on">Uyanık Tut</string>
+    <string name="action_water_eject">Hoparlör Temizle</string>
+    <string name="action_qr">QR Tara</string>
+    <string name="action_mirror">Ayna</string>
+    <string name="action_magnifier">Büyüteç</string>
+    <string name="action_ruler">Cetvel</string>
+    <string name="action_decision">Zar At</string>
+    <string name="action_counter">Sayaç</string>
+    <string name="action_system">Sistem</string>
+
+    <!-- Status Strings -->
+    <string name="status_sound_on">SES AÇIK</string>
+    <string name="status_muted">SESSİZ</string>
+    <string name="status_flash_on">FLAŞ AÇIK</string>
+    <string name="status_stop_vibe">DURDUR</string>
+    <string name="status_awake_on">UYANIK</string>
+    <string name="status_dice_result">ZAR: %1$d</string>
+    
+    <!-- Settings -->
+    <string name="title_settings">Ayarlar</string>
+    <string name="pref_language">Dil</string>
+    <string name="pref_units">Birimler</string>
+    <string name="pref_haptic">Titreşim Geri Bildirimi</string>
+    <string name="pref_sound">Ses Efektleri</string>
+    
+    <string name="lang_english">İngilizce</string>
+    <string name="lang_turkish">Türkçe</string>
+    
+    <string name="unit_metric">Metrik (cm)</string>
+    <string name="unit_imperial">Emperyal (inç)</string>
+
+    <!-- QR Strings -->
+    <string name="qr_instruction">QR kodu kamera ile tara</string>
+    <string name="qr_result_title">Tarama Sonucu</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="action_open_browser">Tarayıcıda Aç</string>
+    <string name="msg_copied">Panoya kopyalandı</string>
+    <string name="error_open_link">Bağlantı açılamadı</string>
+</resources>

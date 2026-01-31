@@ -37,17 +37,17 @@
             android:layout_marginBottom="16dp"
             android:max="100"
             android:progress="0" 
-            android:progressTint="@color/white"
-            android:thumbTint="@color/white"/>
+            android:progressTint="@color/accent_yellow"
+            android:thumbTint="@color/accent_yellow"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnFlash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/ic_launcher"
-            app:tint="@color/black"
-            app:backgroundTint="@color/white" />
+            android:src="@drawable/ic_flashlight"
+            app:tint="@color/text_primary"
+            app:backgroundTint="@color/accent_yellow" />
 
     </LinearLayout>
 
@@ -56,7 +56,9 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_launcher" 
+        android:padding="12dp"
+        android:background="#40000000"
+        android:src="@drawable/ic_close" 
         app:tint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -2,12 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="dark_background">#121212</color>
-    <color name="card_background">#1E1E1E</color>
-    <color name="active_green">#00C853</color>
-    <color name="inactive_grey">#757575</color>
+    
+    <!-- User Specified Palette -->
+    <color name="accent_yellow">#FFD966</color>  <!-- Active Card Background -->
+    <color name="button_orange">#FF8C66</color>  <!-- Action Button / Highlight -->
+    <color name="text_primary">#333333</color>   <!-- Main Text -->
+    <color name="text_passive">#8E8E8E</color>   <!-- Inactive/Secondary Text -->
+    <color name="card_background">#FFFFFF</color> <!-- Card BG -->
+    <color name="app_background">#F7F8FA</color>  <!-- App BG -->
+    
+    <!-- Legacy/Base mappings -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    
+    <!-- Mapped Aliases -->
+    <color name="accent_primary">#FF8C66</color> <!-- Mapping old accent to new Orange -->
+    <color name="stroke_grey">#E6E6E6</color>    <!-- For inactive circle stroke -->
 </resources>
