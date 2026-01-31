@@ -77,6 +77,8 @@ layout activity_qr_scanner
 layout activity_ruler_level
 layout activity_settings
 layout item_feature_card
+mipmap ic_launcher
+mipmap ic_utilix_logo
 string action_copy
 string action_counter
 string action_decision
