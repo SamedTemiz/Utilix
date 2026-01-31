@@ -12,6 +12,7 @@
     <string name="action_decision">Roll Dice</string>
     <string name="action_counter">Counter</string>
     <string name="action_system">System</string>
+    <string name="action_pixel_test">Pixel Test</string>
 
     <!-- Status Strings -->
     <string name="status_sound_on">SOUND ON</string>

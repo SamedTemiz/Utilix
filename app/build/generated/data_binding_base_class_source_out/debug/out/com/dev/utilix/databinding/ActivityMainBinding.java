@@ -4,13 +4,10 @@ package com.dev.utilix.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.GridLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dev.utilix.R;
@@ -27,190 +24,18 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FloatingActionButton btnSettings;
 
   @NonNull
-  public final CardView cardDeadPixel;
-
-  @NonNull
-  public final CardView cardDice;
-
-  @NonNull
-  public final CardView cardFlashlight;
-
-  @NonNull
-  public final CardView cardKeepAwake;
-
-  @NonNull
-  public final CardView cardMagnifier;
-
-  @NonNull
-  public final CardView cardMediaMute;
-
-  @NonNull
-  public final CardView cardMirror;
-
-  @NonNull
-  public final CardView cardQr;
-
-  @NonNull
-  public final CardView cardRuler;
-
-  @NonNull
-  public final CardView cardScreenLight;
-
-  @NonNull
-  public final CardView cardTally;
-
-  @NonNull
-  public final CardView cardVibrate;
-
-  @NonNull
-  public final CardView cardWaterEject;
-
-  @NonNull
-  public final GridLayout gridLayout;
-
-  @NonNull
-  public final ImageView iconDeadPixel;
-
-  @NonNull
-  public final ImageView iconDice;
-
-  @NonNull
-  public final ImageView iconFlashlight;
-
-  @NonNull
-  public final ImageView iconKeepAwake;
-
-  @NonNull
-  public final ImageView iconMagnifier;
-
-  @NonNull
-  public final ImageView iconMediaMute;
-
-  @NonNull
-  public final ImageView iconMirror;
-
-  @NonNull
-  public final ImageView iconQr;
-
-  @NonNull
-  public final ImageView iconRuler;
-
-  @NonNull
-  public final ImageView iconScreenLight;
-
-  @NonNull
-  public final ImageView iconTally;
-
-  @NonNull
-  public final ImageView iconVibrate;
-
-  @NonNull
-  public final ImageView iconWaterEject;
-
-  @NonNull
   public final View overlayScreenLight;
 
   @NonNull
-  public final TextView textDeadPixel;
-
-  @NonNull
-  public final TextView textDice;
-
-  @NonNull
-  public final TextView textFlashlight;
-
-  @NonNull
-  public final TextView textKeepAwake;
-
-  @NonNull
-  public final TextView textMagnifier;
-
-  @NonNull
-  public final TextView textMediaMute;
-
-  @NonNull
-  public final TextView textMirror;
-
-  @NonNull
-  public final TextView textQr;
-
-  @NonNull
-  public final TextView textRuler;
-
-  @NonNull
-  public final TextView textScreenLight;
-
-  @NonNull
-  public final TextView textTallyCount;
-
-  @NonNull
-  public final TextView textVibrate;
-
-  @NonNull
-  public final TextView textWaterEject;
+  public final RecyclerView recyclerViewFeatures;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton btnSettings, @NonNull CardView cardDeadPixel,
-      @NonNull CardView cardDice, @NonNull CardView cardFlashlight, @NonNull CardView cardKeepAwake,
-      @NonNull CardView cardMagnifier, @NonNull CardView cardMediaMute,
-      @NonNull CardView cardMirror, @NonNull CardView cardQr, @NonNull CardView cardRuler,
-      @NonNull CardView cardScreenLight, @NonNull CardView cardTally, @NonNull CardView cardVibrate,
-      @NonNull CardView cardWaterEject, @NonNull GridLayout gridLayout,
-      @NonNull ImageView iconDeadPixel, @NonNull ImageView iconDice,
-      @NonNull ImageView iconFlashlight, @NonNull ImageView iconKeepAwake,
-      @NonNull ImageView iconMagnifier, @NonNull ImageView iconMediaMute,
-      @NonNull ImageView iconMirror, @NonNull ImageView iconQr, @NonNull ImageView iconRuler,
-      @NonNull ImageView iconScreenLight, @NonNull ImageView iconTally,
-      @NonNull ImageView iconVibrate, @NonNull ImageView iconWaterEject,
-      @NonNull View overlayScreenLight, @NonNull TextView textDeadPixel, @NonNull TextView textDice,
-      @NonNull TextView textFlashlight, @NonNull TextView textKeepAwake,
-      @NonNull TextView textMagnifier, @NonNull TextView textMediaMute,
-      @NonNull TextView textMirror, @NonNull TextView textQr, @NonNull TextView textRuler,
-      @NonNull TextView textScreenLight, @NonNull TextView textTallyCount,
-      @NonNull TextView textVibrate, @NonNull TextView textWaterEject) {
+      @NonNull FloatingActionButton btnSettings, @NonNull View overlayScreenLight,
+      @NonNull RecyclerView recyclerViewFeatures) {
     this.rootView = rootView;
     this.btnSettings = btnSettings;
-    this.cardDeadPixel = cardDeadPixel;
-    this.cardDice = cardDice;
-    this.cardFlashlight = cardFlashlight;
-    this.cardKeepAwake = cardKeepAwake;
-    this.cardMagnifier = cardMagnifier;
-    this.cardMediaMute = cardMediaMute;
-    this.cardMirror = cardMirror;
-    this.cardQr = cardQr;
-    this.cardRuler = cardRuler;
-    this.cardScreenLight = cardScreenLight;
-    this.cardTally = cardTally;
-    this.cardVibrate = cardVibrate;
-    this.cardWaterEject = cardWaterEject;
-    this.gridLayout = gridLayout;
-    this.iconDeadPixel = iconDeadPixel;
-    this.iconDice = iconDice;
-    this.iconFlashlight = iconFlashlight;
-    this.iconKeepAwake = iconKeepAwake;
-    this.iconMagnifier = iconMagnifier;
-    this.iconMediaMute = iconMediaMute;
-    this.iconMirror = iconMirror;
-    this.iconQr = iconQr;
-    this.iconRuler = iconRuler;
-    this.iconScreenLight = iconScreenLight;
-    this.iconTally = iconTally;
-    this.iconVibrate = iconVibrate;
-    this.iconWaterEject = iconWaterEject;
     this.overlayScreenLight = overlayScreenLight;
-    this.textDeadPixel = textDeadPixel;
-    this.textDice = textDice;
-    this.textFlashlight = textFlashlight;
-    this.textKeepAwake = textKeepAwake;
-    this.textMagnifier = textMagnifier;
-    this.textMediaMute = textMediaMute;
-    this.textMirror = textMirror;
-    this.textQr = textQr;
-    this.textRuler = textRuler;
-    this.textScreenLight = textScreenLight;
-    this.textTallyCount = textTallyCount;
-    this.textVibrate = textVibrate;
-    this.textWaterEject = textWaterEject;
+    this.recyclerViewFeatures = recyclerViewFeatures;
   }
 
   @Override
@@ -246,260 +71,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardDeadPixel;
-      CardView cardDeadPixel = ViewBindings.findChildViewById(rootView, id);
-      if (cardDeadPixel == null) {
-        break missingId;
-      }
-
-      id = R.id.cardDice;
-      CardView cardDice = ViewBindings.findChildViewById(rootView, id);
-      if (cardDice == null) {
-        break missingId;
-      }
-
-      id = R.id.cardFlashlight;
-      CardView cardFlashlight = ViewBindings.findChildViewById(rootView, id);
-      if (cardFlashlight == null) {
-        break missingId;
-      }
-
-      id = R.id.cardKeepAwake;
-      CardView cardKeepAwake = ViewBindings.findChildViewById(rootView, id);
-      if (cardKeepAwake == null) {
-        break missingId;
-      }
-
-      id = R.id.cardMagnifier;
-      CardView cardMagnifier = ViewBindings.findChildViewById(rootView, id);
-      if (cardMagnifier == null) {
-        break missingId;
-      }
-
-      id = R.id.cardMediaMute;
-      CardView cardMediaMute = ViewBindings.findChildViewById(rootView, id);
-      if (cardMediaMute == null) {
-        break missingId;
-      }
-
-      id = R.id.cardMirror;
-      CardView cardMirror = ViewBindings.findChildViewById(rootView, id);
-      if (cardMirror == null) {
-        break missingId;
-      }
-
-      id = R.id.cardQr;
-      CardView cardQr = ViewBindings.findChildViewById(rootView, id);
-      if (cardQr == null) {
-        break missingId;
-      }
-
-      id = R.id.cardRuler;
-      CardView cardRuler = ViewBindings.findChildViewById(rootView, id);
-      if (cardRuler == null) {
-        break missingId;
-      }
-
-      id = R.id.cardScreenLight;
-      CardView cardScreenLight = ViewBindings.findChildViewById(rootView, id);
-      if (cardScreenLight == null) {
-        break missingId;
-      }
-
-      id = R.id.cardTally;
-      CardView cardTally = ViewBindings.findChildViewById(rootView, id);
-      if (cardTally == null) {
-        break missingId;
-      }
-
-      id = R.id.cardVibrate;
-      CardView cardVibrate = ViewBindings.findChildViewById(rootView, id);
-      if (cardVibrate == null) {
-        break missingId;
-      }
-
-      id = R.id.cardWaterEject;
-      CardView cardWaterEject = ViewBindings.findChildViewById(rootView, id);
-      if (cardWaterEject == null) {
-        break missingId;
-      }
-
-      id = R.id.gridLayout;
-      GridLayout gridLayout = ViewBindings.findChildViewById(rootView, id);
-      if (gridLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.iconDeadPixel;
-      ImageView iconDeadPixel = ViewBindings.findChildViewById(rootView, id);
-      if (iconDeadPixel == null) {
-        break missingId;
-      }
-
-      id = R.id.iconDice;
-      ImageView iconDice = ViewBindings.findChildViewById(rootView, id);
-      if (iconDice == null) {
-        break missingId;
-      }
-
-      id = R.id.iconFlashlight;
-      ImageView iconFlashlight = ViewBindings.findChildViewById(rootView, id);
-      if (iconFlashlight == null) {
-        break missingId;
-      }
-
-      id = R.id.iconKeepAwake;
-      ImageView iconKeepAwake = ViewBindings.findChildViewById(rootView, id);
-      if (iconKeepAwake == null) {
-        break missingId;
-      }
-
-      id = R.id.iconMagnifier;
-      ImageView iconMagnifier = ViewBindings.findChildViewById(rootView, id);
-      if (iconMagnifier == null) {
-        break missingId;
-      }
-
-      id = R.id.iconMediaMute;
-      ImageView iconMediaMute = ViewBindings.findChildViewById(rootView, id);
-      if (iconMediaMute == null) {
-        break missingId;
-      }
-
-      id = R.id.iconMirror;
-      ImageView iconMirror = ViewBindings.findChildViewById(rootView, id);
-      if (iconMirror == null) {
-        break missingId;
-      }
-
-      id = R.id.iconQr;
-      ImageView iconQr = ViewBindings.findChildViewById(rootView, id);
-      if (iconQr == null) {
-        break missingId;
-      }
-
-      id = R.id.iconRuler;
-      ImageView iconRuler = ViewBindings.findChildViewById(rootView, id);
-      if (iconRuler == null) {
-        break missingId;
-      }
-
-      id = R.id.iconScreenLight;
-      ImageView iconScreenLight = ViewBindings.findChildViewById(rootView, id);
-      if (iconScreenLight == null) {
-        break missingId;
-      }
-
-      id = R.id.iconTally;
-      ImageView iconTally = ViewBindings.findChildViewById(rootView, id);
-      if (iconTally == null) {
-        break missingId;
-      }
-
-      id = R.id.iconVibrate;
-      ImageView iconVibrate = ViewBindings.findChildViewById(rootView, id);
-      if (iconVibrate == null) {
-        break missingId;
-      }
-
-      id = R.id.iconWaterEject;
-      ImageView iconWaterEject = ViewBindings.findChildViewById(rootView, id);
-      if (iconWaterEject == null) {
-        break missingId;
-      }
-
       id = R.id.overlayScreenLight;
       View overlayScreenLight = ViewBindings.findChildViewById(rootView, id);
       if (overlayScreenLight == null) {
         break missingId;
       }
 
-      id = R.id.textDeadPixel;
-      TextView textDeadPixel = ViewBindings.findChildViewById(rootView, id);
-      if (textDeadPixel == null) {
+      id = R.id.recyclerViewFeatures;
+      RecyclerView recyclerViewFeatures = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewFeatures == null) {
         break missingId;
       }
 
-      id = R.id.textDice;
-      TextView textDice = ViewBindings.findChildViewById(rootView, id);
-      if (textDice == null) {
-        break missingId;
-      }
-
-      id = R.id.textFlashlight;
-      TextView textFlashlight = ViewBindings.findChildViewById(rootView, id);
-      if (textFlashlight == null) {
-        break missingId;
-      }
-
-      id = R.id.textKeepAwake;
-      TextView textKeepAwake = ViewBindings.findChildViewById(rootView, id);
-      if (textKeepAwake == null) {
-        break missingId;
-      }
-
-      id = R.id.textMagnifier;
-      TextView textMagnifier = ViewBindings.findChildViewById(rootView, id);
-      if (textMagnifier == null) {
-        break missingId;
-      }
-
-      id = R.id.textMediaMute;
-      TextView textMediaMute = ViewBindings.findChildViewById(rootView, id);
-      if (textMediaMute == null) {
-        break missingId;
-      }
-
-      id = R.id.textMirror;
-      TextView textMirror = ViewBindings.findChildViewById(rootView, id);
-      if (textMirror == null) {
-        break missingId;
-      }
-
-      id = R.id.textQr;
-      TextView textQr = ViewBindings.findChildViewById(rootView, id);
-      if (textQr == null) {
-        break missingId;
-      }
-
-      id = R.id.textRuler;
-      TextView textRuler = ViewBindings.findChildViewById(rootView, id);
-      if (textRuler == null) {
-        break missingId;
-      }
-
-      id = R.id.textScreenLight;
-      TextView textScreenLight = ViewBindings.findChildViewById(rootView, id);
-      if (textScreenLight == null) {
-        break missingId;
-      }
-
-      id = R.id.textTallyCount;
-      TextView textTallyCount = ViewBindings.findChildViewById(rootView, id);
-      if (textTallyCount == null) {
-        break missingId;
-      }
-
-      id = R.id.textVibrate;
-      TextView textVibrate = ViewBindings.findChildViewById(rootView, id);
-      if (textVibrate == null) {
-        break missingId;
-      }
-
-      id = R.id.textWaterEject;
-      TextView textWaterEject = ViewBindings.findChildViewById(rootView, id);
-      if (textWaterEject == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnSettings, cardDeadPixel,
-          cardDice, cardFlashlight, cardKeepAwake, cardMagnifier, cardMediaMute, cardMirror, cardQr,
-          cardRuler, cardScreenLight, cardTally, cardVibrate, cardWaterEject, gridLayout,
-          iconDeadPixel, iconDice, iconFlashlight, iconKeepAwake, iconMagnifier, iconMediaMute,
-          iconMirror, iconQr, iconRuler, iconScreenLight, iconTally, iconVibrate, iconWaterEject,
-          overlayScreenLight, textDeadPixel, textDice, textFlashlight, textKeepAwake, textMagnifier,
-          textMediaMute, textMirror, textQr, textRuler, textScreenLight, textTallyCount,
-          textVibrate, textWaterEject);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnSettings, overlayScreenLight,
+          recyclerViewFeatures);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

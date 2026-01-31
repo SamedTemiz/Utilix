@@ -13,6 +13,7 @@
     <string name="action_decision">Zar At</string>
     <string name="action_counter">Sayaç</string>
     <string name="action_system">Sistem</string>
+    <string name="action_pixel_test">Ölü Piksel</string>
 
     <!-- Status Strings -->
     <string name="status_sound_on">SES AÇIK</string>

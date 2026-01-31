@@ -1997,6 +1997,7 @@
     <string name="action_magnifier">Magnifier</string>
     <string name="action_mirror">Mirror</string>
     <string name="action_open_browser">Open in Browser</string>
+    <string name="action_pixel_test">Pixel Test</string>
     <string name="action_qr">QR Scan</string>
     <string name="action_ruler">Ruler</string>
     <string name="action_screen_light">Screen Light</string>

@@ -38,6 +38,7 @@
     <string name="action_magnifier">Büyüteç</string>
     <string name="action_mirror">Ayna</string>
     <string name="action_open_browser">Tarayıcıda Aç</string>
+    <string name="action_pixel_test">Ölü Piksel</string>
     <string name="action_qr">QR Tara</string>
     <string name="action_ruler">Cetvel</string>
     <string name="action_screen_light">Ekran Işığı</string>
