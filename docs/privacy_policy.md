@@ -43,4 +43,4 @@ We may update Our Privacy Policy from time to time. We will notify You of any ch
 
 ## Contact Us
 If you have any questions about this Privacy Policy, You can contact us:
-*   By email: support@utilix.app
+*   By email: raytechmobil@gmail.com
