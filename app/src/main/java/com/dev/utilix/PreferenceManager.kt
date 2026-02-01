@@ -11,6 +11,8 @@ class PreferenceManager(context: Context) {
         const val KEY_UNIT = "unit" // "metric" or "imperial"
         const val KEY_HAPTIC = "haptic"
         const val KEY_SOUND = "sound"
+        const val KEY_THEME = "theme"
+        const val KEY_FIRST_RUN = "first_run"
     }
 
     var language: String
@@ -28,4 +30,12 @@ class PreferenceManager(context: Context) {
     var isSoundEnabled: Boolean
         get() = prefs.getBoolean(KEY_SOUND, true)
         set(value) = prefs.edit().putBoolean(KEY_SOUND, value).apply()
+
+    var theme: String
+        get() = prefs.getString(KEY_THEME, "system") ?: "system"
+        set(value) = prefs.edit().putString(KEY_THEME, value).apply()
+
+    var isFirstRun: Boolean
+        get() = prefs.getBoolean(KEY_FIRST_RUN, true)
+        set(value) = prefs.edit().putBoolean(KEY_FIRST_RUN, value).apply()
 }

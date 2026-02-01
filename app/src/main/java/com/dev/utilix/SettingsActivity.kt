@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.app.AppCompatActivity
 import com.dev.utilix.R
 import com.google.android.material.switchmaterial.SwitchMaterial
@@ -27,9 +28,43 @@ class SettingsActivity : AppCompatActivity() {
             finish()
         }
 
+        setupTheme()
         setupLanguage()
         setupUnits()
         setupToggles()
+    }
+
+    private fun setupTheme() {
+        val radioGroup = findViewById<RadioGroup>(R.id.radioGroupTheme)
+        
+        when(preferenceManager.theme) {
+            "light" -> radioGroup.check(R.id.radioThemeLight)
+            "dark" -> radioGroup.check(R.id.radioThemeDark)
+            else -> radioGroup.check(R.id.radioThemeSystem)
+        }
+
+        radioGroup.setOnCheckedChangeListener { _, checkedId ->
+            val themeMode = when(checkedId) {
+                R.id.radioThemeLight -> "light"
+                R.id.radioThemeDark -> "dark"
+                else -> "system"
+            }
+            
+            if (themeMode != preferenceManager.theme) {
+                preferenceManager.theme = themeMode
+                applyTheme(themeMode)
+            }
+        }
+    }
+
+    private fun applyTheme(themeMode: String) {
+        val mode = when(themeMode) {
+            "light" -> AppCompatDelegate.MODE_NIGHT_NO
+            "dark" -> AppCompatDelegate.MODE_NIGHT_YES
+            else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+        }
+        AppCompatDelegate.setDefaultNightMode(mode)
+        recreate()
     }
 
     private fun setupLanguage() {

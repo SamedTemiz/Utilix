@@ -35,6 +35,22 @@
     <string name="unit_metric">Metric (cm)</string>
     <string name="unit_imperial">Imperial (inch)</string>
 
+    <string name="pref_theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Welcome to Utilix</string>
+    <string name="onboarding_desc_1">Your ultimate everyday utility belt. Fast, simple, and elegant.</string>
+    <string name="onboarding_title_2">Organize Your Way</string>
+    <string name="onboarding_desc_2">Customize your dashboard. Long press to drag and drop features where you want them.</string>
+    <string name="onboarding_title_3">Ready to Go</string>
+    <string name="onboarding_desc_3">You are all set. Jump in and start using your tools.</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_start">Get Started</string>
+
     <!-- QR Strings -->
     <string name="qr_instruction">Point camera at a QR code</string>
     <string name="qr_result_title">Scan Result</string>

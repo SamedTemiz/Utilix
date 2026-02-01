@@ -36,6 +36,22 @@
     <string name="unit_metric">Metrik (cm)</string>
     <string name="unit_imperial">Emperyal (inç)</string>
 
+    <string name="pref_theme">Tema</string>
+    <string name="theme_system">Sistem Varsayılanı</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Utilix Hoş Geldiniz</string>
+    <string name="onboarding_desc_1">Günlük işleriniz için gerekli tüm araçlar tek bir yerde.</string>
+    <string name="onboarding_title_2">Sıralamayı Değiştirin</string>
+    <string name="onboarding_desc_2">Ana ekranınızı özelleştirin. Kartlara basılı tutarak sürükleyip bırakabilir ve yerlerini değiştirebilirsiniz.</string>
+    <string name="onboarding_title_3">Hazırsınız</string>
+    <string name="onboarding_desc_3">Artık tüm araçları kullanmaya başlayabilirsiniz.</string>
+    <string name="btn_next">İleri</string>
+    <string name="btn_skip">Atla</string>
+    <string name="btn_start">Başlayalım</string>
+
     <!-- QR Strings -->
     <string name="qr_instruction">QR kodu kamera ile tara</string>
     <string name="qr_result_title">Tarama Sonucu</string>

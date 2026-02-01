@@ -54,5 +54,8 @@ dependencies {
     
     // QR Code
     implementation 'com.google.zxing:core:3.5.2'
+
+    // Lottie
+    implementation 'com.airbnb.android:lottie:6.3.0'
 }
 

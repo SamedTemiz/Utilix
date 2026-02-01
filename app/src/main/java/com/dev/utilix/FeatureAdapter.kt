@@ -43,14 +43,21 @@ class FeatureAdapter(
             // For now, let's keep it simple and reuse title unless complex
             
             // Set Style based on Active State
+            // Set Style based on Active State
             if (item.isActive) {
                 // Active: Yellow Card, White Circle
                 cardContainer.setCardBackgroundColor(ContextCompat.getColor(context, R.color.accent_yellow))
                 iconFeature.setBackgroundResource(R.drawable.bg_circle_active)
+                
+                // Force Dark Text on Yellow Background (regardless of theme)
+                textTitle.setTextColor(Color.parseColor("#333333"))
             } else {
-                // Inactive: White Card, Grey Circle
+                // Inactive: Theme Card, Grey Circle
                 cardContainer.setCardBackgroundColor(ContextCompat.getColor(context, R.color.card_background))
                 iconFeature.setBackgroundResource(R.drawable.bg_circle_inactive)
+                
+                // Restore Theme Text
+                textTitle.setTextColor(ContextCompat.getColor(context, R.color.text_primary))
             }
 
             // Click Listeners

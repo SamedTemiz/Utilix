@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Semantics -->
+    <color name="app_background">#121212</color>  <!-- Deep Dark Background -->
+    <color name="card_background">#1E1E1E</color>  <!-- Elevated Surface -->
+    
+    <color name="text_primary">#E6E6E6</color>     <!-- High Contrast Text -->
+    <color name="text_passive">#B3B3B3</color>     <!-- Medium Emph Text -->
+    
+    <!-- Keep brand accents same but ensure readability -->
+    <color name="accent_primary">#FF8C66</color> 
+    <color name="button_orange">#FF8C66</color> 
+    <color name="accent_yellow">#FFD966</color> 
+    
+    <!-- Base overrides if needed -->
+    <color name="stroke_grey">#404040</color>    <!-- Darker stroke for dark mode -->
+    <color name="black">#FFFFFFFF</color>        <!-- In dark mode, 'black' usually inverts to white for icons/text if used directly -->
+    <color name="white">#FF000000</color>        <!-- In dark mode, 'white' inverts to black -->
+</resources>

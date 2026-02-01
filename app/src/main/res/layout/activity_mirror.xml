@@ -40,7 +40,7 @@
         android:padding="12dp"
         android:background="#40000000"
         android:src="@drawable/ic_close" 
-        app:tint="@color/white"
+        app:tint="@color/static_white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

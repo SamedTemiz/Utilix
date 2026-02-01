@@ -2,6 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="static_white">#FFFFFFFF</color>
+    <color name="static_black">#FF000000</color>
     
     <!-- User Specified Palette -->
     <color name="accent_yellow">#FFD966</color>  <!-- Active Card Background -->

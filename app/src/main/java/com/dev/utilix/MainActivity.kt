@@ -43,6 +43,15 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // Check Onboarding
+        val pm = PreferenceManager(this)
+        if (pm.isFirstRun) {
+            startActivity(android.content.Intent(this, OnboardingActivity::class.java))
+            finish()
+            return
+        }
+
         setContentView(R.layout.activity_main)
 
         featureManager = FeatureManager(this)
@@ -97,12 +106,18 @@ class MainActivity : AppCompatActivity() {
             onFeatureClick = { item, position -> handleFeatureClick(item, position) },
             onFeatureLongClick = { item, position -> handleFeatureLongClick(item, position) },
             onItemMove = { from, to -> 
-                 Collections.swap(featureList, from, to)
                  saveOrder()
             }
         )
         
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
+        val layoutManager = GridLayoutManager(this, 2)
+        layoutManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
+            override fun getSpanSize(position: Int): Int {
+                // If it's the last item and total items is odd, span 2 columns
+                return if (position == adapter.itemCount - 1 && adapter.itemCount % 2 != 0) 2 else 1
+            }
+        }
+        recyclerView.layoutManager = layoutManager
         recyclerView.adapter = adapter
         
         val itemTouchHelper = ItemTouchHelper(object : ItemTouchHelper.SimpleCallback(
