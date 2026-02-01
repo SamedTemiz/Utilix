@@ -17,6 +17,10 @@ captures/
 .externalNativeBuild
 .cxx
 
+# Keystore files
+*.jks
+*.keystore
+
 # Artifacts
 progress.md
 AppIcons/
